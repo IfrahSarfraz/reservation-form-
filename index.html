@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Reservation Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+</head>
+<body>
+    <div class="background-image">
+        <div class="image-overlay">  </div>   
+    </div>
+    <div class="inner-div">
+        <center><h1 style="color: #fff; font-family: 'Times New Roman', Times, serif;">RESTAURANT BOOKING FORM</h1></center>
+    <div class="row" style="width: 100%;">
+     <div class="col-s-6 col-6" style="padding-left: 30px;">
+      <div class="form-container">
+        <form id="reservation-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <span class="error-message" id="name-error"></span>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <span class="error-message" id="email-error"></span>
+            </div>
+            <div class="form-group">
+                <div class="datetime-container">
+                <div>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required >
+                <span class="error-message" id="phone-error"></span></div>
+                <div><label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" min="1" required >
+                <span class="error-message" id="guests-error"></span></div>
+                </div>
+            </div>
+        
+            <div class="form-group">
+                <div class="datetime-container">
+                    <div>
+                <label for="date">Date:</label>
+                <input type="text" id="date" name="date" required style="height:  60%;">
+                <span class="error-message" id="date-error"></span></div>
+                <div><label for="time">Time:</label>
+                <input type="time" id="time" name="time" required>
+                <span class="error-message" id="time-error"></span></div>
+            </div>
+            </div>
+            <div class="form-group">
+                <label for="requests">Special Requests:</label>
+                <textarea id="requests" name="requests"></textarea>
+            </div>
+            <center><button type="submit">Reserve</button></center>
+        </form>
+      </div>
+      </div>
+    <div class="col-s-6 col-6 mbl">
+        <div class="right" id="food"></div>
+    </div>
+    </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+    <script src="style.js"></script>
+</body>
+</html>
