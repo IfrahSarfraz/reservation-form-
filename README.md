@@ -38,9 +38,9 @@ restaurant-reservation-form/
 ├── css/
 │   └── style.css          # CSS styles for the form
 
-│   ├── bg.jpg             # Background image
+     │   ├── bg.jpg             # Background image
 
-│   ├── food.jpg           # Image for the right column
+     │   ├── food.jpg           # Image for the right column
 
 ├── js/
 │   └── style.js           # JavaScript for form validation and Pikaday date picker
