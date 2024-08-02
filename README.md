@@ -36,14 +36,14 @@ You can view a live demo of the project [here](https://ifrahsarfraz.github.io/re
 restaurant-reservation-form/
 
 ├── css/
-│   └── style.css          # CSS styles for the form
+i) │   └── style.css          # CSS styles for the form
 
-             │   ├── bg.jpg             # Background image
+ii) │   ├── bg.jpg            # Background image
 
-             │   ├── food.jpg           # Image for the right column
+iii) │   ├── food.jpg         # Image for the right column
      
 ├── js/
-│   └── style.js           # JavaScript for form validation and Pikaday date picker
+i) │   └── style.js           # JavaScript for form validation and Pikaday date picker
 
 ├── README.md              # Project documentation
 
